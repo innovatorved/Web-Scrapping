@@ -1,2 +1,2 @@
 language = "python"
-run = "python multi-valued-attributes.py"
+run = "python b8-stripped_strings.py"
