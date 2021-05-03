@@ -1,4 +1,4 @@
-# python b10-tag-siblings.py
+# python b11-find-all-siblings.py
 from bs4 import  BeautifulSoup
 sibling_soup = BeautifulSoup("<a><b>TutorialsPoint</b><c><strong>The Biggest Online Tutorials Library, It's all Free</strong></b></a>" , "lxml")
 
@@ -22,3 +22,5 @@ b_str = sibling_soup.b.string
 print(f"\nb tag string : {b_str}")
 
 print(b_str.next_sibling)
+
+#if we change sibling to siblings then he return all value 
